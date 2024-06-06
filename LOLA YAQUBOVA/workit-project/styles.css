@@ -1,0 +1,162 @@
+  /* darkPurple: 
+  lightPurple: 'hsl(271, 12%, 34%)',
+  veryLightPurple: '%, 9 ,9%)',
+  white: 'hsl(0, 0%, 100%)',
+  green: '' */
+  header{
+    background-color: hsl(273, 85%, 13%);
+    border-radius: 0 0 10% 10%;
+    padding-bottom: 200px;
+  }
+  nav img {
+    float: left;
+  }
+  nav a {
+    float: right;
+    color: white;
+    text-decoration: underline hsl(150, 100%, 63%);
+    font-size: 2rem;
+  }
+  h1{
+    clear: both;
+    color:hsl(276, 100%, 99%) ;
+    font-size: 84px;
+  }
+nav{
+  padding: 40px 200px;
+}
+#main{
+  padding: 40px;
+  text-align: center;
+}
+button{
+  padding: 14px;
+  background-color: hsl(150, 100%, 63%);
+  border: none;
+  font-weight: bold;
+}
+#tailored{
+  text-decoration: underline hsl(150, 100%, 63%);
+}
+#hero-img{
+  width: 100%;
+  position: absolute;
+  
+}
+#hero-img-container{
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+}
+#bg-1{
+  position: absolute;
+  top: 20%;
+}
+#bg-2{
+  position: absolute;
+  top: 20%;
+  right: 0;
+}
+.card{
+  display: inline-block;
+  height: 400px;
+  width: 300px;
+  text-align: center;
+  padding: 40px;
+  color: hsl(273, 85%, 13%);
+  margin-right: 80px;
+  vertical-align: middle;
+}
+.card span{
+  border: 2px solid hsl(273, 85%, 13%);
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 50%;
+  text-align: center;
+}
+.card h2{
+  font-size: 3rem;
+}
+.card p{
+  font-size: 1.5rem;
+}
+#card-container{
+  height: 100%;
+  width: 100%;
+  background-color: hsl(276, 100%, 99%);
+  text-align: center;
+  padding: 200px 0;
+}
+#founder-img{
+  width: 300px;
+  position: absolute;
+  left: -150px;
+  top: -200px;
+  z-index: -1;
+}
+#founder-info{
+  width: 600px;
+  height: 400px;
+  background-color: hsl(273, 85%, 13%);
+  margin: 0 auto;
+  color: hsl(276, 100%, 99%);
+  padding: 40px;
+  position: relative;
+}
+#founder{
+  height: 100%;
+  width: 100%;
+  padding: 200px 0;
+}
+footer img{
+  padding: 20px;
+}
+footer{
+  width: 100%;
+  text-align: center;
+}
+#founder h2{
+  font-size: 2rem;
+}
+#founder p{
+  font-size: 1.5rem;
+}
+@media(max-width:450px) {
+  nav {
+    padding: 20px;
+  }
+  nav img {
+    width: 60px;
+  }
+  nav a {
+    font-size: 1rem;
+  }
+  h1{
+    font-size: 2rem;
+  }
+  #bg-1, #bg-2{
+    width: 100px;
+  }
+  #hero-img-container{
+    width: 200px;
+  }
+  .card{
+    width: 300px;
+  }
+  #founder-info{
+    width: 300px;
+  }
+  header{
+    padding-bottom: 80px;
+  }
+  #card-container{
+    padding: 20px 0;
+  }
+  #founder-img{
+    width: 150px;
+    top: -100px;
+    left: -50px;
+  }
+}

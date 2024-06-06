@@ -1,0 +1,21 @@
+body{
+    background-color: bisque;
+    padding: 20px 50px;
+}
+#main-div{
+    background-color: white;
+    padding: 30px;
+}
+#main-div > img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+#preperation{
+    background-color: rgb(151, 109, 116);
+    padding: 20px;
+    border-radius: 10px;
+}
+td{
+    width: 500px;
+}
